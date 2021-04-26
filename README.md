@@ -10,4 +10,5 @@ https://github.com/steven-tingay/High-Cadence-Imaging-III/blob/main/telescope-tr
 
 https://github.com/steven-tingay/High-Cadence-Imaging-III/blob/main/pe-model-encoder-images.py
 
+https://github.com/steven-tingay/High-Cadence-Imaging-III/blob/main/pe.py
 
