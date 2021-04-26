@@ -7,10 +7,13 @@ In order to further develop and implement novel drift scan imaging experiments t
 The code included here runs in conjunction with the hardware implemented in the paper described above.  The codes included are:
 
 https://github.com/steven-tingay/High-Cadence-Imaging-III/blob/main/telescope-tracker3.ino
+This is the Arduino sketch that reads data from the Real Time Clock and the rotary encoder.  These data are captured and transmitted to the computer over the serial connection, where the data are processed using the python script below (pe-serial-encoder-calibration.py).  The resulting predictive model is transmitted back to the Arduino, where the sketch uses that information to control the drive motor and correct the periodic errors.  This sketch should be started and then, immediately, the python script should be started.  If all is well, that is all that should be needed to derive and apply corrections.
 
-
+https://github.com/steven-tingay/High-Cadence-Imaging-III/blob/main/pe-serial-encoder-calibration.py
+This is the python processing script described above, that works in concert with the Arduino sketch, as described above.
 
 https://github.com/steven-tingay/High-Cadence-Imaging-III/blob/main/pe.py
+This is not an operational part of the code base, but is used to analyse sequences of images taken to measure periodic errors using astronomical techniques.  These can be used to verify the quality of the corrections applied using the python script and skecth described above (as described in the paper).
 
 https://github.com/steven-tingay/High-Cadence-Imaging-III/blob/main/pe-model-encoder-images.py
-
+This is not an operational pat of the code base and is mainly used as a set of tests and analyses that result in checks of the system and probes of the data.  This script is used to generate various plots used in the paper.  Warning, it is not well documented, as it is a bit of a sandpit.
