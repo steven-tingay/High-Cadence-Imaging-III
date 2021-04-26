@@ -8,4 +8,6 @@ The code included here runs in conjunction with the hardware implemented in the 
 
 https://github.com/steven-tingay/High-Cadence-Imaging-III/blob/main/telescope-tracker3.ino
 
+https://github.com/steven-tingay/High-Cadence-Imaging-III/blob/main/pe-model-encoder-images.py
+
 
