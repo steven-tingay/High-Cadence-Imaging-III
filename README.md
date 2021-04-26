@@ -6,6 +6,6 @@ In order to further develop and implement novel drift scan imaging experiments t
 
 The code included here runs in conjunction with the hardware implemented in the paper described above.  The codes included are:
 
-telescope-tracker3.ino
-----------------------
+https://github.com/steven-tingay/High-Cadence-Imaging-III/blob/main/telescope-tracker3.ino
+
 
